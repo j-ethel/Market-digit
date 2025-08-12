@@ -1,0 +1,129 @@
+/* Animations personnalisées */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 1s ease-out;
+}
+
+/* Styles pour les cartes d'outils */
+.tool-category-card {
+    transition: all 0.3s ease;
+    border: 1px solid #e5e7eb;
+}
+
+.tool-category-card:hover {
+    transform: translateY(-5px);
+    border-color: #3b82f6;
+}
+
+.tool-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.tool-item:last-child {
+    border-bottom: none;
+}
+
+/* Styles pour le menu mobile */
+#mobile-menu {
+    transition: all 0.3s ease;
+}
+
+/* Styles pour les boutons */
+button, .btn {
+    transition: all 0.3s ease;
+}
+
+/* Styles pour les liens */
+a {
+    transition: all 0.3s ease;
+}
+
+/* Styles pour les formulaires */
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Styles pour les icônes */
+.fas, .fab {
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .tool-category-card {
+        margin-bottom: 1rem;
+    }
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styles pour les sections */
+section {
+    position: relative;
+}
+
+/* Gradient backgrounds */
+.bg-gradient-to-r {
+    background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+}
+
+/* Custom shadows */
+.shadow-custom {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading states */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* Success states */
+.success {
+    border-color: #10b981;
+    background-color: #f0fdf4;
+}
+
+/* Error states */
+.error {
+    border-color: #ef4444;
+    background-color: #fef2f2;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2563eb;
+}
+
