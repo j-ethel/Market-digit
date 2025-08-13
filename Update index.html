@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outils de Marketing Digital - Maison Digitale by Ethel</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-blue-600">
+                    <i class="fas fa-home mr-2"></i>Maison Digitale by Ethel
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#accueil" class="text-gray-700 hover:text-blue-600 transition duration-300">Accueil</a>
+                    <a href="#outils" class="text-gray-700 hover:text-blue-600 transition duration-300">Outils</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-600 transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+
+<!-- À AJOUTER DANS VOTRE FICHIER index.html -->
+
+<style>
+    /* Style pour le bouton d'appel à l'action */
+    .cta-container {
+        text-align: center;
+        padding: 50px 20px;
+    }
+    .cta-button {
+        display: inline-block;
+        padding: 15px 30px;
+        border: 2px solid #00bfff;
+        border-radius: 50px;
+        color: #00bfff;
+        background-color: transparent;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
+    }
+    .cta-button:hover {
+        background-color: #00bfff;
+        color: #0a0a1a;
+        box-shadow: 0 0 30px rgba(0, 191, 255, 0.8);
+        transform: translateY(-3px);
+    }
+</style>
+
+<div class="cta-container">
+    <a href="outils-ia.html" class="cta-button">Découvrir les Outils IA</a>
+</div>
+
+<!-- FIN DU CODE À AJOUTER -->
+
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <a href="#accueil" class="block py-2 text-gray-700 hover:text-blue-600">Accueil</a>
+                <a href="#outils" class="block py-2 text-gray-700 hover:text-blue-600">Outils</a>
+                <a href="contact.html" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-6 animate-fade-in">
+                Outils Essentiels du Marketing Digital
+            </h1>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">
+                Découvrez une sélection complète d'outils de marketing digital, gratuits et payants, 
+                pour optimiser votre présence en ligne et développer votre activité.
+            </p>
+            <a href="#outils" class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-block">
+                Découvrir les Outils
+            </a>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="outils" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+                Catégories d'Outils
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Analyse et Suivi -->
+                <div class="tool-category-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-chart-line text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Analyse et Suivi</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Google Analytics</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Analyse de trafic web</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Hotjar</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fas fa-times mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Cartes de chaleur</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Semrush</span>
+                                <span class="text-orange-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Payant
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">SEO et analyse concurrentielle</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Ahrefs</span>
+                                <span class="text-orange-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Payant
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Analyse de backlinks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO -->
+                <div class="tool-category-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-search text-4xl text-green-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Référencement (SEO)</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Google Search Console</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fas fa-times mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Optimisation visibilité</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Keyword Planner</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Planification mots-clés</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">LocalRanker</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fas fa-times mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">SEO local</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Moz Pro</span>
+                                <span class="text-orange-600 text-sm">
+                                    <i class="fas fa-times mr-1"></i>Payant
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Suite SEO complète</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Marketing -->
+                <div class="tool-category-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-envelope text-4xl text-purple-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Email Marketing</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">MailChimp</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Solution d'emailing</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">HubSpot</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Automatisation marketing</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Brevo</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Marketing tout-en-un</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Campaign Monitor</span>
+                                <span class="text-orange-600 text-sm">
+                                    <i class="fas fa-times mr-1"></i>Payant
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Campagnes visuelles</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Médias Sociaux -->
+                <div class="tool-category-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-share-alt text-4xl text-pink-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Médias Sociaux</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Buffer</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Programmation publications</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Hootsuite</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Planification médias sociaux</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Later</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Planification visuelle</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Sprout Social</span>
+                                <span class="text-orange-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Payant
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Gestion complète</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div class="tool-category-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-palette text-4xl text-yellow-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Design & Contenu</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Canva</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Design graphique</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Unsplash</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Banque d'images</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Pexels</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Images et vidéos</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">DaVinci Resolve</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fas fa-times mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Montage vidéo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gestion de Projet -->
+                <div class="tool-category-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-tasks text-4xl text-indigo-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800">Gestion de Projet</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Bitrix24</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Collaboration équipe</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">ClickUp</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Gestion flexible</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Trello</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Tableaux Kanban</p>
+                        </div>
+                        <div class="tool-item">
+                            <div class="flex justify-between items-center">
+                                <span class="font-semibold">Asana</span>
+                                <span class="text-green-600 text-sm">
+                                    <i class="fab fa-android mr-1"></i>Gratuit
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600">Organisation équipe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                Besoin d'aide pour choisir vos outils ?
+            </h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Contactez-nous pour un conseil personnalisé et découvrez les outils 
+                qui correspondent le mieux à vos besoins.
+            </p>
+            <a href="contact.html" class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300 inline-block">
+                Nous Contacter
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold">
+                        <i class="fas fa-home mr-2"></i>Maison Digitale by Ethel
+                    </h3>
+                    <p class="text-gray-400">Votre partenaire digital</p>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-gray-400 mb-2">Contact</p>
+                    <p class="text-lg font-semibold">
+                        <i class="fas fa-phone mr-2"></i>0320000000
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+                <p>&copy; 2025 Maison Digitale by Ethel. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
