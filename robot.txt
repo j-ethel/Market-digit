@@ -1,0 +1,3 @@
+Sitemap: https://j-ethel.github.io/Market-digit/sitemap.xml
+User-agent: *
+Disallow:
